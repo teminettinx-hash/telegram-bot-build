@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telegram Bot Builder"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editTextToken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Paste your BotFather token" />
+
+    <Button
+        android:id="@+id/buttonSaveToken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Token"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not connected"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textRuleCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto-reply rules: 0"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textAiStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI mode: OFF"
+        android:layout_marginTop="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:id="@+id/buttonStartBot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Bot" />
+
+        <Button
+            android:id="@+id/buttonStopBot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Bot"
+            android:layout_marginStart="12dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.BotBuilder" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#2E6BE6</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:windowBackground">#FAFAFA</item>
+    </style>
+</resources>
