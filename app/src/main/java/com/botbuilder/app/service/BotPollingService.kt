@@ -31,7 +31,7 @@ class BotPollingService : Service() {
         return START_STICKY
     }
 
-    private suspend fun pollLoop() {
+    private suspend fun CoroutineScope.pollLoop() {
         var consecutiveFailures = 0
         while (isActive) {
             try {
